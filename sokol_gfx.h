@@ -15060,10 +15060,11 @@ _SOKOL_PRIVATE void _sg_mtl_begin_pass(const sg_pass* pass) {
             _sg->mtl.cmd_buffer = [_sg->mtl.cmd_queue commandBufferWithUnretainedReferences];
         }
         [_sg->mtl.cmd_buffer enqueue];
+        _sg_state_t* state_copy = _sg;
         [_sg->mtl.cmd_buffer addCompletedHandler:^(id<MTLCommandBuffer> cmd_buf) {
             // NOTE: this code is called on a different thread!
             _SOKOL_UNUSED(cmd_buf);
-            dispatch_semaphore_signal(_sg->mtl.sem);
+            dispatch_semaphore_signal(state_copy->mtl.sem);
         }];
     }
 
