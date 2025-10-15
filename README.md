@@ -41,6 +41,6 @@ The context for doing this work was I needed something to work in audio plugins,
 
 I intend to update this repo semi-regularly. 
 
--   Main repo: [https://github.com/floooh/sokol](https://github.com/floooh/sokol/commit/55af0a43deff7e9907ffeb5112b5c6ed1480bfb7)
--   Shader compiler repo: [https://github.com/floooh/sokol-tools](https://github.com/floooh/sokol-tools/commit/6ddf2a1ba5cce0afa2fed91835930a4e4eb9fc3b)
--   Shader compiler recompiled binaries: [https://github.com/floooh/sokol-tools-bin](https://github.com/floooh/sokol-tools-bin/commit/90d2b9267813cbfb66e26c8e3eca5cc866f947e0)
+-   Main repo: [https://github.com/floooh/sokol](https://github.com/floooh/sokol/commit/d134baeaecfc082deebdd9c9eafd6b8127e926af)
+-   Shader compiler repo: [https://github.com/floooh/sokol-tools](https://github.com/floooh/sokol-tools/commit/701f157ed99162b6f296501dce51bf29a893b9bc)
+-   Shader compiler recompiled binaries: [https://github.com/floooh/sokol-tools-bin](https://github.com/floooh/sokol-tools-bin/commit/a06f19929ff8f9824ec6dd87c21329b1f205809e)
